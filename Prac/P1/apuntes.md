@@ -58,3 +58,6 @@ x = linespace(0,1,5) == 0.00 0.25 0.50 0.75 1.00
         - '-': Linea continua
         - '--': Linea discontinua
         - 'LineWidth',**num**: Grosor de la linea.
+- title(s), escribe el titulo de un grafico.
+- ylabel(s) / xlabel(s), etiqueta el eje y y x respectivamente.
+- legend(...), anade una leyendo al grafico.
