@@ -43,6 +43,12 @@ x = [3 4] .* [10 20] == 30 80
 ```
 xMax tendra el valor maximo del vector x y idx tendra la posicion del valor maximo del vector x.
 - Para buscar informacion de las funciones de MatLab: **doc fcName**.
+- Ejemplos de filtrado de elementos de un vector:
+```
+x = v(v > 5) -> la variable x contiene todos los elementos de v tales que sean mayor que 5.
+v(v < 5) = 0 -> modifica todos los elementos del vector tales que sean menor que 5.
+```
+
 ### Funciones utiles
 - linespace(primero,ultimo,numero\_de\_elementos), por ejemplo:  
 ```
